@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #91A258;
+  width: 100%;
+  height: 60px;
+  border-image-width: 10px; {
+  max-height: 20px; /* Adjust this value to your preferred size */
+  width: 50%;
+  
+}
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left and <ul> right */
+  align-items: center;            /* Vertically centers the items */
+  padding: 1rem 2.5rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;                    /* Space between menu items */
+}
+
+.header-home {
+    /* Set the path to your image */
+    background-image: url('images/Header_image.jpg'); 
+    
+    /* Prevent the image from repeating if it is too small */
+    background-repeat: no-repeat; 
+    
+    /* Center the image within the header */
+    background-position: center center; 
+    
+    /* Force the image to scale nicely and cover the entire header area */
+    background-size: cover; 
+    
+    /* Set a height so the header is tall enough to see the image */
+    height: 550px; 
+    
+    /* Center the text inside the header (Optional) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* pushes children to the right */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  list-style:none; /* removes bullet points if using <ul> */
+  align-items: center;
+  gap: 101px; /* space between nav links */
+
+  
+  
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav li {
+  height: 60px;
+}
+
+.logo img {
+  width: 50px;
+  display: block;
+  
+}
+
+:root{
+  --color-primary: #91A258;
+  --color-primary-dark: #3730a3;
+  --color-background: #f8fafc;
+  --color-text: #1e293b;
+  --color-muted: #64748b;
+  --color-white: #ffffff;
+}
+
+
+
+.small-profile {
+  display: flex;
+  width: 100px;   /* Explicitly sets the width */
+  height: auto;   /* Automatically adjusts height to prevent distortion */
+}
+
+.hero-banner {
+  background-image: url('url(images/Header_image.jpg)');
+  background-repeat: no-repeat;
+  /* Keeps the image at its exact original size */
+  background-size: auto; 
+  /* Optional: keeps the center of the image visible as the screen shrinks */
+  background-position: center; 
+}
+
+section {
+  background-color: #FAF2D2;
+  
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 300px;
+}
+
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.container {
+  padding: 16px 16px;
+  background-color: #91A258;
+}
+
+.logo {
+  width: 100px;
+  height: auto; 
+}
+
+/* Reset default page spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* 0.6.4, 0.6.6 */
+}
+
+
+
+.image-container img {
+  width: 110%;
+  height: 80%;
+  object-fit: cover; 
+  display: block; 
+}
+
+
+.text-container {
+  display: flex; /* 0.6.4 */
+  flex-direction: column; /* 0.6.4 */
+  justify-content: center; /* 0.6.4, 0.6.6 */
+  padding: 40px;
+}
+
+.button {
+display: inline-block;
+  padding: 10px 10px;
+  background-color: #4A547D;
+  color: #FAF2D2;
+  text-decoration: none; 
+  border-radius: 35px;   
+  font-weight: bold;
+  width: 218px;
+  height: 38px;
+  
+}
+
+.button:hover {
+  background-color: #3f4b73; /* Darkens on hover */
+}
+
+.header-events {
+    background-image: url('images/pexels-wal_-172619-2156618639-36238478.jpg'); 
+    
+   
+    background-repeat: no-repeat; 
+    
+  
+    background-position: center center; 
+    
+   
+    background-size: cover; 
+    
+   
+    height: 550px; 
+    
+  
+}
+
+.events-1 {
+  background-color: #FAF2D2;
+  color: #723C24;
+  
+}
+
+
+
+.event-image {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 190px;
+  width: 290px;
+}
+
+h3 {
+  font-family: "Prompt", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px; 
+
+}
+
+h4 {
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+p {
+  font-family: "Prompt", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+.events-img1 {
+   display: flex;          
+    align-items: center;    
+    justify-content: center;
+    gap: 20px;              
+    width: 100%;            
+    max-width: 1200px;      
+    margin: 0 auto;        
+}
+
+.blend-together {
+  display: flex;
+  justify-content: flex-end; /* Moves all children to the right */
+   
+
+}
+
+.seasonal-promotion {
+  display: flex;
+  justify-content: flex-end; /* Moves all children to the right */
+}
+
+
+
+
+
+
+
+
+
+
